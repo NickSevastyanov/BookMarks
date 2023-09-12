@@ -18,16 +18,10 @@ body {
   min-width: 20%;
 }
 
-.header {
-  width: 115vh;
-  display: flex;
-  align-items: center; 
-  justify-content: space-between
-}
-
 .content {
   padding-top: 20px;
   padding-left: 45px;
+
 }
 
 .contentContainer {

@@ -1,0 +1,20 @@
+input[type="text"] {
+    width: 160px;
+    background-color: transparent;
+    transition: width 1s ease-in-out;
+    padding-left: 3px;
+    border-color: #2e2d2d;
+}
+
+.w-75 {
+    width: 75px;
+}
+
+input[type="text"]:focus {
+    width: 350px;
+}
+
+input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
