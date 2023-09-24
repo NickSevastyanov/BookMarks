@@ -14,6 +14,13 @@ body {
   
 }
 
+.contentFix {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margint-top: 20px;
+}
+
 .navbarContainer {
   min-width: 20%;
 }
