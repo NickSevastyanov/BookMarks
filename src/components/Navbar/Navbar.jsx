@@ -86,7 +86,7 @@ export const Navbar = ({ newItem, setNewItem, setNewcontent, Newcontent }) => {
                 />
               </div>
               <center>
-                <button onClick={AddNewItem}>
+                <button >
                   Add
                   <span></span>
                 </button>
