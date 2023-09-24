@@ -13,7 +13,7 @@ const MainContent = ({ Newcontent, setNewcontent, searchValue }) => {
       setNewcontent(spreadNewcontent);
     }
   }
-    return (Newcontent.length > 0 ? (<div className=" flex flex-wrap   ml-6 mt-7">
+    return (Newcontent.length > 0 ? (<div className="flex flex-wrap ml-6 mt-7">
     {Newcontent.filter((film) => {
       const Film = film.Name.toLowerCase();
 
