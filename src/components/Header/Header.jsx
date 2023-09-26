@@ -10,7 +10,7 @@ const Header = ({ Newcontent, setNewcontent, searchValue, setSearchValue, newIte
 
   return (
     <div>
-      <div className="header   border-b-2 border-black ml-11 pb-10">
+      <div className="header border-b-2 border-black ml-11 pb-10 mb-10">
         <SearchBar
           searchValue={searchValue}
           onChangeSearchValue={onChangeSearchValue}

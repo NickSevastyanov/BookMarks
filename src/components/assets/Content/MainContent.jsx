@@ -19,7 +19,7 @@ const MainContent = ({ Newcontent, setNewcontent, searchValue }) => {
 
       return Film.includes(searchValue);
     }).map((film, index) => (
-      <div key={film.id} className="contentContainer ">
+      <div key={film.id} className="contentContainer ml-11 mb-10">
         <div>
           <Rating
             value={film.rating ? film.rating : 0}
